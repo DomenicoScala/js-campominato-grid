@@ -52,4 +52,27 @@ footer h4{
 
 main{
     height: calc(100vh - 130px);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+
+.result-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cell{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: black;
+}
+
+.cell.active{
+    background-color: goldenrod;
+    color: blue;
 }
