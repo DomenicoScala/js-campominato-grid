@@ -70,9 +70,31 @@ main{
     line-height: 100px;
     text-align: center;
     color: black;
+    background-color: green;
+    font-size: bold;
 }
 
 .cell.active{
     background-color: goldenrod;
     color: blue;
 }
+
+
+.cell-100{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.cell-81{
+    width: calc(1000px / 9);
+    height: calc(1000px / 9);
+    line-height: calc(1000px / 9);
+}
+
+.cell-49{
+    width: calc(1000px / 7);
+    height: calc(1000px / 7);
+    line-height: calc(1000px / 7);
+}
+
